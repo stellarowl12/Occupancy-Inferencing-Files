@@ -1,0 +1,265 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     occ_all-weka.filters.unsupervised.attribute.Remove-R51-74
+Instances:    1828
+Attributes:   51
+              DayOfWeek
+              HourOfDay
+              RealPow_Mean
+              RealPow_LastMean
+              RealPow_Std
+              RealPow_Median
+              RealPow_Max
+              RealPow_Min
+              RealPow_MeanDeriv
+              RealPow_StdDeriv
+              RealPow_MaxDeriv
+              RealPow_Kurt
+              RealPow_Iqr
+              RealPow_Mcr
+              RealPow_FreqPeak
+              RealPow_FreqEntropy
+              RealPow_FreqEnergy
+              RealPow_FreqLastEnergy
+              ReactPow_Mean
+              ReactPow_LastMean
+              ReactPow_Std
+              ReactPow_Median
+              ReactPow_Max
+              ReactPow_Min
+              ReactPow_MeanDeriv
+              ReactPow_StdDeriv
+              ReactPow_MaxDeriv
+              ReactPow_Kurt
+              ReactPow_Iqr
+              ReactPow_Mcr
+              ReactPow_FreqPeak
+              ReactPow_FreqEntropy
+              ReactPow_FreqEnergy
+              ReactPow_FreqLastEnergy
+              Power_Cluster1
+              Power_Cluster2
+              Power_Cluster4
+              Power_Cluster5
+              Power_Cluster6
+              Power_Cluster7
+              Power_Cluster8
+              Power_Cluster9
+              Power_Cluster10
+              Power_Cluster13
+              Power_Cluster14
+              Power_Cluster15
+              Power_Cluster16
+              Power_Cluster17
+              Power_Cluster18
+              Power_Cluster19
+              label_num
+Test mode:    5-fold cross-validation
+Evaluation cost matrix:
+ 0 1 2 3
+ 1 0 1 2
+ 2 1 0 1
+ 3 2 1 0
+
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+HourOfDay <= 7
+|   HourOfDay <= 6: 3 (752.0)
+|   HourOfDay > 6
+|   |   RealPow_Min <= 1476
+|   |   |   DayOfWeek <= 4: 2 (3.0)
+|   |   |   DayOfWeek > 4: 0 (5.0)
+|   |   RealPow_Min > 1476
+|   |   |   Power_Cluster14 <= 275: 3 (73.0/2.0)
+|   |   |   Power_Cluster14 > 275
+|   |   |   |   RealPow_FreqLastEnergy <= 780099812.999998
+|   |   |   |   |   DayOfWeek <= 4: 2 (6.0)
+|   |   |   |   |   DayOfWeek > 4
+|   |   |   |   |   |   RealPow_LastMean <= 1594.844765: 1 (2.0)
+|   |   |   |   |   |   RealPow_LastMean > 1594.844765: 2 (2.0/1.0)
+|   |   |   |   RealPow_FreqLastEnergy > 780099812.999998: 3 (17.0/1.0)
+HourOfDay > 7
+|   HourOfDay <= 17
+|   |   HourOfDay <= 9
+|   |   |   RealPow_Min <= 1498
+|   |   |   |   DayOfWeek <= 4
+|   |   |   |   |   Power_Cluster2 <= 10: 2 (11.0)
+|   |   |   |   |   Power_Cluster2 > 10: 0 (2.0/1.0)
+|   |   |   |   DayOfWeek > 4: 0 (29.0)
+|   |   |   RealPow_Min > 1498
+|   |   |   |   ReactPow_Mean <= 705.5695
+|   |   |   |   |   DayOfWeek <= 3
+|   |   |   |   |   |   DayOfWeek <= 2: 3 (4.0)
+|   |   |   |   |   |   DayOfWeek > 2
+|   |   |   |   |   |   |   ReactPow_Mean <= 697.273935: 2 (11.0)
+|   |   |   |   |   |   |   ReactPow_Mean > 697.273935: 1 (4.0/1.0)
+|   |   |   |   |   DayOfWeek > 3
+|   |   |   |   |   |   Power_Cluster18 <= 0
+|   |   |   |   |   |   |   DayOfWeek <= 4
+|   |   |   |   |   |   |   |   HourOfDay <= 8
+|   |   |   |   |   |   |   |   |   RealPow_Std <= 55.767468: 1 (4.0)
+|   |   |   |   |   |   |   |   |   RealPow_Std > 55.767468: 3 (5.0/1.0)
+|   |   |   |   |   |   |   |   HourOfDay > 8: 1 (12.0)
+|   |   |   |   |   |   |   DayOfWeek > 4
+|   |   |   |   |   |   |   |   RealPow_Min <= 1534: 1 (4.0)
+|   |   |   |   |   |   |   |   RealPow_Min > 1534: 0 (4.0)
+|   |   |   |   |   |   Power_Cluster18 > 0: 1 (2.0/1.0)
+|   |   |   |   ReactPow_Mean > 705.5695
+|   |   |   |   |   HourOfDay <= 8
+|   |   |   |   |   |   DayOfWeek <= 4
+|   |   |   |   |   |   |   RealPow_Mcr <= 0.131387
+|   |   |   |   |   |   |   |   Power_Cluster4 <= 8
+|   |   |   |   |   |   |   |   |   DayOfWeek <= 3
+|   |   |   |   |   |   |   |   |   |   ReactPow_Min <= 712.66
+|   |   |   |   |   |   |   |   |   |   |   RealPow_Median <= 1645: 3 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   RealPow_Median > 1645
+|   |   |   |   |   |   |   |   |   |   |   |   ReactPow_Kurt <= 54.555819: 2 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ReactPow_Kurt > 54.555819: 3 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   ReactPow_Min > 712.66: 3 (13.0)
+|   |   |   |   |   |   |   |   |   DayOfWeek > 3: 3 (11.0)
+|   |   |   |   |   |   |   |   Power_Cluster4 > 8
+|   |   |   |   |   |   |   |   |   DayOfWeek <= 3: 3 (2.0)
+|   |   |   |   |   |   |   |   |   DayOfWeek > 3: 1 (2.0/1.0)
+|   |   |   |   |   |   |   RealPow_Mcr > 0.131387: 2 (3.0)
+|   |   |   |   |   |   DayOfWeek > 4: 2 (20.0/1.0)
+|   |   |   |   |   HourOfDay > 8
+|   |   |   |   |   |   ReactPow_Mean <= 760.372652: 2 (49.0)
+|   |   |   |   |   |   ReactPow_Mean > 760.372652
+|   |   |   |   |   |   |   DayOfWeek <= 1: 3 (6.0)
+|   |   |   |   |   |   |   DayOfWeek > 1
+|   |   |   |   |   |   |   |   RealPow_LastMean <= 1688.052239: 2 (2.0)
+|   |   |   |   |   |   |   |   RealPow_LastMean > 1688.052239: 0 (2.0)
+|   |   HourOfDay > 9
+|   |   |   ReactPow_Median <= 767.38
+|   |   |   |   HourOfDay <= 10
+|   |   |   |   |   ReactPow_FreqLastEnergy <= 130313022.9954: 1 (7.0)
+|   |   |   |   |   ReactPow_FreqLastEnergy > 130313022.9954
+|   |   |   |   |   |   RealPow_Median <= 1541
+|   |   |   |   |   |   |   DayOfWeek <= 4
+|   |   |   |   |   |   |   |   RealPow_Median <= 1508
+|   |   |   |   |   |   |   |   |   DayOfWeek <= 3: 0 (15.0)
+|   |   |   |   |   |   |   |   |   DayOfWeek > 3
+|   |   |   |   |   |   |   |   |   |   RealPow_FreqEntropy <= 0.37261: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   RealPow_FreqEntropy > 0.37261: 0 (6.0)
+|   |   |   |   |   |   |   |   RealPow_Median > 1508: 1 (3.0/1.0)
+|   |   |   |   |   |   |   DayOfWeek > 4: 0 (23.0)
+|   |   |   |   |   |   RealPow_Median > 1541
+|   |   |   |   |   |   |   Power_Cluster6 <= 2
+|   |   |   |   |   |   |   |   ReactPow_Min <= 679.55
+|   |   |   |   |   |   |   |   |   RealPow_Mean <= 1545.512545: 0 (2.0/1.0)
+|   |   |   |   |   |   |   |   |   RealPow_Mean > 1545.512545: 2 (11.0)
+|   |   |   |   |   |   |   |   ReactPow_Min > 679.55
+|   |   |   |   |   |   |   |   |   DayOfWeek <= 4
+|   |   |   |   |   |   |   |   |   |   RealPow_Std <= 16.101772
+|   |   |   |   |   |   |   |   |   |   |   RealPow_Mean <= 1600.222222: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   RealPow_Mean > 1600.222222: 2 (3.0)
+|   |   |   |   |   |   |   |   |   |   RealPow_Std > 16.101772: 0 (17.0)
+|   |   |   |   |   |   |   |   |   DayOfWeek > 4: 2 (6.0)
+|   |   |   |   |   |   |   Power_Cluster6 > 2: 2 (7.0)
+|   |   |   |   HourOfDay > 10
+|   |   |   |   |   DayOfWeek <= 3
+|   |   |   |   |   |   Power_Cluster8 <= 142
+|   |   |   |   |   |   |   Power_Cluster14 <= 280: 0 (171.0/3.0)
+|   |   |   |   |   |   |   Power_Cluster14 > 280
+|   |   |   |   |   |   |   |   HourOfDay <= 13: 0 (3.0)
+|   |   |   |   |   |   |   |   HourOfDay > 13: 1 (3.0)
+|   |   |   |   |   |   Power_Cluster8 > 142: 1 (5.0/1.0)
+|   |   |   |   |   DayOfWeek > 3
+|   |   |   |   |   |   ReactPow_FreqLastEnergy <= 150407726.8315
+|   |   |   |   |   |   |   DayOfWeek <= 4
+|   |   |   |   |   |   |   |   ReactPow_Median <= 720.66
+|   |   |   |   |   |   |   |   |   ReactPow_Min <= 622.87: 1 (31.0/1.0)
+|   |   |   |   |   |   |   |   |   ReactPow_Min > 622.87
+|   |   |   |   |   |   |   |   |   |   RealPow_Median <= 1143
+|   |   |   |   |   |   |   |   |   |   |   ReactPow_Min <= 714.22: 1 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   ReactPow_Min > 714.22: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   RealPow_Median > 1143
+|   |   |   |   |   |   |   |   |   |   |   RealPow_Mcr <= 0.069853: 0 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   RealPow_Mcr > 0.069853: 1 (2.0)
+|   |   |   |   |   |   |   |   ReactPow_Median > 720.66: 0 (21.0/1.0)
+|   |   |   |   |   |   |   DayOfWeek > 4
+|   |   |   |   |   |   |   |   RealPow_Min <= 1098: 0 (80.0/1.0)
+|   |   |   |   |   |   |   |   RealPow_Min > 1098
+|   |   |   |   |   |   |   |   |   RealPow_Min <= 1324: 1 (3.0)
+|   |   |   |   |   |   |   |   |   RealPow_Min > 1324: 0 (2.0)
+|   |   |   |   |   |   ReactPow_FreqLastEnergy > 150407726.8315
+|   |   |   |   |   |   |   HourOfDay <= 11
+|   |   |   |   |   |   |   |   DayOfWeek <= 4: 0 (2.0)
+|   |   |   |   |   |   |   |   DayOfWeek > 4: 2 (2.0)
+|   |   |   |   |   |   |   HourOfDay > 11
+|   |   |   |   |   |   |   |   RealPow_Min <= 1199: 1 (7.0)
+|   |   |   |   |   |   |   |   RealPow_Min > 1199: 2 (4.0/1.0)
+|   |   |   ReactPow_Median > 767.38
+|   |   |   |   DayOfWeek <= 3
+|   |   |   |   |   RealPow_Median <= 4067
+|   |   |   |   |   |   Power_Cluster6 <= 1
+|   |   |   |   |   |   |   RealPow_Iqr <= 324: 0 (23.0)
+|   |   |   |   |   |   |   RealPow_Iqr > 324
+|   |   |   |   |   |   |   |   RealPow_FreqEntropy <= 0.371677: 2 (2.0)
+|   |   |   |   |   |   |   |   RealPow_FreqEntropy > 0.371677: 0 (3.0)
+|   |   |   |   |   |   Power_Cluster6 > 1: 2 (2.0)
+|   |   |   |   |   RealPow_Median > 4067: 1 (8.0)
+|   |   |   |   DayOfWeek > 3
+|   |   |   |   |   HourOfDay <= 13: 2 (17.0)
+|   |   |   |   |   HourOfDay > 13
+|   |   |   |   |   |   DayOfWeek <= 4: 2 (4.0)
+|   |   |   |   |   |   DayOfWeek > 4: 3 (7.0)
+|   HourOfDay > 17
+|   |   RealPow_Min <= 1310
+|   |   |   Power_Cluster18 <= 0
+|   |   |   |   ReactPow_MeanDeriv <= 0.377076
+|   |   |   |   |   DayOfWeek <= 4
+|   |   |   |   |   |   ReactPow_Median <= 716.24: 0 (3.0)
+|   |   |   |   |   |   ReactPow_Median > 716.24: 3 (2.0)
+|   |   |   |   |   DayOfWeek > 4: 0 (6.0)
+|   |   |   |   ReactPow_MeanDeriv > 0.377076
+|   |   |   |   |   ReactPow_StdDeriv <= 28.650045: 3 (14.0/1.0)
+|   |   |   |   |   ReactPow_StdDeriv > 28.650045: 0 (2.0)
+|   |   |   Power_Cluster18 > 0: 2 (2.0/1.0)
+|   |   RealPow_Min > 1310: 3 (190.0)
+
+Number of Leaves  : 	78
+
+Size of the tree : 	155
+
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1642               89.8249 %
+Incorrectly Classified Instances       186               10.1751 %
+Kappa statistic                          0.8211
+Total Cost                             287     
+Average Cost                             0.157 
+Mean absolute error                      0.0533
+Root mean squared error                  0.2157
+Relative absolute error                 18.785  %
+Root relative squared error             57.271  %
+Coverage of cases (0.95 level)          92.2319 %
+Mean rel. region size (0.95 level)      27.5027 %
+Total Number of Instances             1828     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.866    0.041    0.868      0.866    0.867      0.826    0.936     0.792     0
+                 0.624    0.028    0.603      0.624    0.613      0.587    0.812     0.465     1
+                 0.734    0.030    0.726      0.734    0.730      0.701    0.880     0.645     2
+                 0.966    0.044    0.971      0.966    0.969      0.921    0.971     0.972     3
+Weighted Avg.    0.898    0.041    0.899      0.898    0.899      0.856    0.944     0.866     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+  374   25   23   10 |    a = 0
+   27   73   10    7 |    b = 1
+   18   14  130   15 |    c = 2
+   12    9   16 1065 |    d = 3
+

@@ -1,0 +1,1020 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     occ_data_all-weka.filters.unsupervised.attribute.Remove-R164-177
+Instances:    3659
+Attributes:   163
+              [list of attributes omitted]
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                    Class
+Attribute                               0          1
+                                   (0.41)     (0.59)
+=====================================================
+Light
+  mean                              0.1455     0.9949
+  std. dev.                         0.3526     0.1667
+  weight sum                          1505       2154
+  precision                              1          1
+
+DayOfWeek
+  mean                              4.2106     2.9559
+  std. dev.                         2.4299     1.8611
+  weight sum                          1505       2154
+  precision                              1          1
+
+TimeOfDay
+  mean                             13.9867    14.8185
+  std. dev.                         6.6356     3.8114
+  weight sum                          1505       2154
+  precision                              1          1
+
+RealPow_Mean
+  mean                              1.5322     1.7825
+  std. dev.                         0.1155     0.2258
+  weight sum                          1505       2154
+  precision                         0.0004     0.0004
+
+RealPow_LastMean
+  mean                              1.5153     1.7819
+  std. dev.                         0.1995     0.2258
+  weight sum                          1505       2154
+  precision                         0.0008     0.0008
+
+RealPow_Std
+  mean                              0.1005     0.1244
+  std. dev.                         0.1064     0.1176
+  weight sum                          1505       2154
+  precision                         0.0002     0.0002
+
+RealPow_Median
+  mean                              1.4804     1.7319
+  std. dev.                         0.0815     0.2173
+  weight sum                          1505       2154
+  precision                         0.0004     0.0004
+
+RealPow_Max
+  mean                              1.7873     2.1257
+  std. dev.                         0.2657     0.4437
+  weight sum                          1505       2154
+  precision                         0.0008     0.0008
+
+RealPow_Min
+  mean                              1.4326      1.652
+  std. dev.                         0.0705     0.1853
+  weight sum                          1505       2154
+  precision                         0.0003     0.0003
+
+RealPow_MeanDeriv
+  mean                               0.021     0.0311
+  std. dev.                         0.0088     0.0242
+  weight sum                          1505       2154
+  precision                         0.0001     0.0001
+
+RealPow_StdDeriv
+  mean                              0.0411     0.0576
+  std. dev.                         0.0311     0.0577
+  weight sum                          1505       2154
+  precision                         0.0001     0.0001
+
+RealPow_MaxDeriv
+  mean                               0.287     0.3781
+  std. dev.                         0.2159     0.3258
+  weight sum                          1505       2154
+  precision                         0.0005     0.0005
+
+RealPow_Kurt
+  mean                             12.5649     9.4861
+  std. dev.                        16.1249    13.6343
+  weight sum                          1505       2154
+  precision                         0.0332     0.0332
+
+RealPow_Iqr
+  mean                              0.1486     0.1685
+  std. dev.                         0.2193     0.2214
+  weight sum                          1505       2154
+  precision                         0.0002     0.0002
+
+RealPow_Mcr
+  mean                              6.4644     5.8111
+  std. dev.                         6.3051     5.5046
+  weight sum                          1505       2154
+  precision                         0.2585     0.2585
+
+RealPow_FreqPeak
+  mean                              0.0003     0.0007
+  std. dev.                         0.0053     0.0088
+  weight sum                          1505       2154
+  precision                         0.0102     0.0102
+
+RealPow_FreqEntropy
+  mean                              0.8296     0.8827
+  std. dev.                         0.3715     0.4753
+  weight sum                          1505       2154
+  precision                          0.007      0.007
+
+RealPow_FreqEnergy
+  mean                            285.5322   383.9458
+  std. dev.                        89.4429   149.0149
+  weight sum                          1505       2154
+  precision                         0.3229     0.3229
+
+RealPow_FreqLastEnergy
+  mean                            282.3662   383.8629
+  std. dev.                        94.8035   148.7102
+  weight sum                          1505       2154
+  precision                         0.3306     0.3306
+
+ReactPow_Mean
+  mean                              1.0409     1.2019
+  std. dev.                         0.0358     0.1152
+  weight sum                          1505       2154
+  precision                         0.0002     0.0002
+
+ReactPow_LastMean
+  mean                              1.0294     1.2017
+  std. dev.                         0.1158     0.1154
+  weight sum                          1505       2154
+  precision                         0.0004     0.0004
+
+ReactPow_Std
+  mean                              0.0163     0.0298
+  std. dev.                         0.0129     0.0384
+  weight sum                          1505       2154
+  precision                         0.0001     0.0001
+
+ReactPow_Median
+  mean                              1.0395     1.1982
+  std. dev.                         0.0356     0.1138
+  weight sum                          1505       2154
+  precision                         0.0002     0.0002
+
+ReactPow_Max
+  mean                              1.1265     1.3517
+  std. dev.                         0.1276     0.2996
+  weight sum                          1505       2154
+  precision                          0.001      0.001
+
+ReactPow_Min
+  mean                              1.0081     1.1523
+  std. dev.                         0.0364     0.1072
+  weight sum                          1505       2154
+  precision                         0.0002     0.0002
+
+ReactPow_MeanDeriv
+  mean                              0.0119     0.0195
+  std. dev.                         0.0047     0.0155
+  weight sum                          1505       2154
+  precision                         0.0001     0.0001
+
+ReactPow_StdDeriv
+  mean                              0.0157      0.028
+  std. dev.                         0.0181      0.043
+  weight sum                          1505       2154
+  precision                         0.0002     0.0002
+
+ReactPow_MaxDeriv
+  mean                              0.0945     0.1595
+  std. dev.                         0.1202     0.2572
+  weight sum                          1505       2154
+  precision                         0.0009     0.0009
+
+ReactPow_Kurt
+  mean                              13.896    13.0048
+  std. dev.                        16.5384     15.251
+  weight sum                          1505       2154
+  precision                         0.0396     0.0396
+
+ReactPow_Iqr
+  mean                              0.0157     0.0241
+  std. dev.                         0.0074      0.014
+  weight sum                          1505       2154
+  precision                              0          0
+
+ReactPow_Mcr
+  mean                             11.3383    10.1404
+  std. dev.                         5.2134      4.587
+  weight sum                          1505       2154
+  precision                         0.2676     0.2676
+
+ReactPow_FreqPeak
+  mean                              0.0007     0.0011
+  std. dev.                         0.0107     0.0115
+  weight sum                          1505       2154
+  precision                          0.008      0.008
+
+ReactPow_FreqEntropy
+  mean                              0.8296     0.8888
+  std. dev.                         0.3968     0.5396
+  weight sum                          1505       2154
+  precision                          0.013      0.013
+
+ReactPow_FreqEnergy
+  mean                            130.1654   172.7221
+  std. dev.                        35.7257    60.2441
+  weight sum                          1505       2154
+  precision                         0.0935     0.0935
+
+ReactPow_FreqLastEnergy
+  mean                            128.6654   172.7452
+  std. dev.                        38.2994    60.1259
+  weight sum                          1505       2154
+  precision                         0.0972     0.0972
+
+Power_Cluster2
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster3
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster4
+  mean                              0.0007     0.0009
+  std. dev.                         0.0003     0.0004
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster5
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster6
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster9
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster11
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster12
+  mean                              0.0001     0.0002
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster14
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster15
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster16
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster17
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Power_Cluster18
+  mean                              0.0015     0.0016
+  std. dev.                         0.0009      0.001
+  weight sum                          1505       2154
+  precision                         0.0001     0.0001
+
+PeerCount_Mean
+  mean                              9.8525    16.0875
+  std. dev.                         1.6539     4.4242
+  weight sum                          1505       2154
+  precision                          0.019      0.019
+
+PeerCount_LastMean
+  mean                              9.7496    16.0784
+  std. dev.                         1.9511     4.4369
+  weight sum                          1505       2154
+  precision                         0.0247     0.0247
+
+PeerCount_Std
+  mean                              0.3129     0.5192
+  std. dev.                         0.5552     0.8535
+  weight sum                          1505       2154
+  precision                         0.0058     0.0058
+
+PeerCount_Median
+  mean                              9.9684    16.1338
+  std. dev.                         1.6698     4.4803
+  weight sum                          1505       2154
+  precision                         0.7188     0.7188
+
+PeerCount_Max
+  mean                             10.1854    16.6681
+  std. dev.                         1.7128     4.4829
+  weight sum                          1505       2154
+  precision                              1          1
+
+PeerCount_Min
+  mean                              8.9621    14.6453
+  std. dev.                         2.5899     5.3471
+  weight sum                          1505       2154
+  precision                              1          1
+
+PeerCount_MeanDeriv
+  mean                              0.0338     0.0567
+  std. dev.                         0.0801     0.1237
+  weight sum                          1505       2154
+  precision                         0.0063     0.0063
+
+PeerCount_StdDeriv
+  mean                               0.167     0.2733
+  std. dev.                         0.3434     0.5618
+  weight sum                          1505       2154
+  precision                         0.0076     0.0076
+
+PeerCount_MaxDeriv
+  mean                              1.1468     1.8157
+  std. dev.                         2.3629     3.7895
+  weight sum                          1505       2154
+  precision                              1          1
+
+PeerCount_Kurt
+  mean                              3.0681      3.147
+  std. dev.                         7.8531     7.2482
+  weight sum                          1505       2154
+  precision                         0.0565     0.0565
+
+PeerCount_Iqr
+  mean                              0.3242     0.6083
+  std. dev.                         0.8142     1.2947
+  weight sum                          1505       2154
+  precision                           0.44       0.44
+
+PeerCount_Mcr
+  mean                              0.0857     0.1099
+  std. dev.                         0.1176     0.1257
+  weight sum                          1505       2154
+  precision                            0.2        0.2
+
+PeerCount_FreqPeak
+  mean                              0.0033     0.0032
+  std. dev.                         0.0014     0.0011
+  weight sum                          1505       2154
+  precision                         0.0028     0.0028
+
+PeerCount_FreqEntropy
+  mean                              2.9499     2.8665
+  std. dev.                         0.2184     0.2851
+  weight sum                          1505       2154
+  precision                         0.0059     0.0059
+
+PeerCount_FreqEnergy
+  mean                           5645.9234 15497.8849
+  std. dev.                      2064.8706  8369.4718
+  weight sum                          1505       2154
+  precision                        30.0141    30.0141
+
+PeerCount_FreqLastEnergy
+  mean                           5591.9697 15488.9145
+  std. dev.                      2145.1797  8376.4254
+  weight sum                          1505       2154
+  precision                        30.4803    30.4803
+
+TCPCountIn_Mean
+  mean                              0.1979     1.0044
+  std. dev.                           1.15      1.781
+  weight sum                          1505       2154
+  precision                         0.0161     0.0161
+
+TCPCountIn_LastMean
+  mean                              0.1973     1.0044
+  std. dev.                         1.1393     1.7857
+  weight sum                          1505       2154
+  precision                         0.0161     0.0161
+
+TCPCountIn_Std
+  mean                              0.2169      1.536
+  std. dev.                         0.4254     1.1818
+  weight sum                          1505       2154
+  precision                         0.0053     0.0053
+
+TCPCountIn_Median
+  mean                              0.1622     0.4465
+  std. dev.                         1.1828     1.7793
+  weight sum                          1505       2154
+  precision                         0.8333     0.8333
+
+TCPCountIn_Max
+  mean                              1.4615     8.1775
+  std. dev.                         2.7725     6.4508
+  weight sum                          1505       2154
+  precision                         1.5349     1.5349
+
+TCPCountIn_Min
+  mean                              0.1162     0.2372
+  std. dev.                         0.8865     1.1545
+  weight sum                          1505       2154
+  precision                         1.1429     1.1429
+
+TCPCountIn_MeanDeriv
+  mean                              0.0872      0.945
+  std. dev.                         0.2187     0.8382
+  weight sum                          1505       2154
+  precision                         0.0103     0.0103
+
+TCPCountIn_StdDeriv
+  mean                              0.2599     1.7175
+  std. dev.                         0.4486      1.285
+  weight sum                          1505       2154
+  precision                          0.007      0.007
+
+TCPCountIn_MaxDeriv
+  mean                              1.2911     7.5447
+  std. dev.                         2.2287     5.9943
+  weight sum                          1505       2154
+  precision                         1.5349     1.5349
+
+TCPCountIn_Kurt
+  mean                             14.5322    18.1999
+  std. dev.                        21.7582    15.2446
+  weight sum                          1505       2154
+  precision                         0.0316     0.0316
+
+TCPCountIn_Iqr
+  mean                              0.0423     0.5478
+  std. dev.                         0.4051     1.1663
+  weight sum                          1505       2154
+  precision                         0.3333     0.3333
+
+TCPCountIn_Mcr
+  mean                              0.4144     2.8833
+  std. dev.                           1.12     2.0991
+  weight sum                          1505       2154
+  precision                         0.2389     0.2389
+
+TCPCountIn_FreqPeak
+  mean                               0.009     0.0286
+  std. dev.                         0.0193       0.03
+  weight sum                          1505       2154
+  precision                         0.0024     0.0024
+
+TCPCountIn_FreqEntropy
+  mean                              0.8118     3.1344
+  std. dev.                          1.409     1.3064
+  weight sum                          1505       2154
+  precision                         0.0073     0.0073
+
+TCPCountIn_FreqEnergy
+  mean                             89.5474   435.2192
+  std. dev.                       581.5724   968.1308
+  weight sum                          1505       2154
+  precision                          14.51      14.51
+
+TCPCountIn_FreqLastEnergy
+  mean                             88.7135   435.6425
+  std. dev.                       574.7672   970.7304
+  weight sum                          1505       2154
+  precision                        14.5282    14.5282
+
+TCPCountOut_Mean
+  mean                              0.7477     5.1324
+  std. dev.                          0.716     4.3545
+  weight sum                          1505       2154
+  precision                         0.0302     0.0302
+
+TCPCountOut_LastMean
+  mean                              0.7529     5.1181
+  std. dev.                         0.7238     4.3623
+  weight sum                          1505       2154
+  precision                         0.0304     0.0304
+
+TCPCountOut_Std
+  mean                              1.3347     7.8825
+  std. dev.                         1.1744     6.2771
+  weight sum                          1505       2154
+  precision                         0.0131     0.0131
+
+TCPCountOut_Median
+  mean                              0.2473     2.5279
+  std. dev.                         0.6767     2.6001
+  weight sum                          1505       2154
+  precision                         1.6471     1.6471
+
+TCPCountOut_Max
+  mean                               6.651    41.5049
+  std. dev.                         7.1511    33.7683
+  weight sum                          1505       2154
+  precision                         1.5329     1.5329
+
+TCPCountOut_Min
+  mean                              0.0047       0.02
+  std. dev.                         0.1667        0.2
+  weight sum                          1505       2154
+  precision                              1          1
+
+TCPCountOut_MeanDeriv
+  mean                              1.0378     5.5789
+  std. dev.                         0.7026      4.272
+  weight sum                          1505       2154
+  precision                         0.0168     0.0168
+
+TCPCountOut_StdDeriv
+  mean                              1.4488     8.0065
+  std. dev.                         1.2072     6.3753
+  weight sum                          1505       2154
+  precision                         0.0154     0.0154
+
+TCPCountOut_MaxDeriv
+  mean                               6.337    37.6169
+  std. dev.                         6.4857    30.7736
+  weight sum                          1505       2154
+  precision                          1.551      1.551
+
+TCPCountOut_Kurt
+  mean                             10.4231    13.2664
+  std. dev.                         7.3459     9.4556
+  weight sum                          1505       2154
+  precision                         0.0151     0.0151
+
+TCPCountOut_Iqr
+  mean                              1.0358     5.0957
+  std. dev.                         0.8603     4.8507
+  weight sum                          1505       2154
+  precision                         0.5975     0.5975
+
+TCPCountOut_Mcr
+  mean                              5.5416      4.817
+  std. dev.                          1.235     1.3572
+  weight sum                          1505       2154
+  precision                         0.1902     0.1902
+
+TCPCountOut_FreqPeak
+  mean                               0.039     0.0237
+  std. dev.                         0.0288     0.0263
+  weight sum                          1505       2154
+  precision                         0.0022     0.0022
+
+TCPCountOut_FreqEntropy
+  mean                              3.7148     3.6689
+  std. dev.                         0.2056      0.225
+  weight sum                          1505       2154
+  precision                         0.0039     0.0039
+
+TCPCountOut_FreqEnergy
+  mean                            215.0263  7915.3184
+  std. dev.                       843.4678 12437.0551
+  weight sum                          1505       2154
+  precision                        81.8449    81.8449
+
+TCPCountOut_FreqLastEnergy
+  mean                            247.2338  7895.1124
+  std. dev.                      1052.4382 12441.7099
+  weight sum                          1505       2154
+  precision                        81.8493    81.8493
+
+TCPMaxsizeIn_Mean
+  mean                              7.2452    12.1195
+  std. dev.                         1.4721     2.4581
+  weight sum                          1505       2154
+  precision                         0.0031     0.0031
+
+TCPMaxsizeIn_LastMean
+  mean                              7.1852    12.1012
+  std. dev.                         1.6848     2.4756
+  weight sum                          1505       2154
+  precision                         0.0042     0.0042
+
+TCPMaxsizeIn_Std
+  mean                               4.611     3.3052
+  std. dev.                         0.5373     1.4676
+  weight sum                          1505       2154
+  precision                         0.0017     0.0017
+
+TCPMaxsizeIn_Median
+  mean                              6.1277    12.9344
+  std. dev.                         2.2803     3.2912
+  weight sum                          1505       2154
+  precision                         0.0183     0.0183
+
+TCPMaxsizeIn_Max
+  mean                             15.1647     15.197
+  std. dev.                         0.2271     0.0751
+  weight sum                          1505       2154
+  precision                            0.4        0.4
+
+TCPMaxsizeIn_Min
+  mean                              1.1655     3.8695
+  std. dev.                         1.0523     3.2018
+  weight sum                          1505       2154
+  precision                         0.0278     0.0278
+
+TCPMaxsizeIn_MeanDeriv
+  mean                              4.8118     2.8484
+  std. dev.                         0.8301     1.7798
+  weight sum                          1505       2154
+  precision                         0.0022     0.0022
+
+TCPMaxsizeIn_StdDeriv
+  mean                              4.0423     3.2985
+  std. dev.                         0.4962     1.1857
+  weight sum                          1505       2154
+  precision                         0.0016     0.0016
+
+TCPMaxsizeIn_MaxDeriv
+  mean                             13.0564    10.8461
+  std. dev.                         1.1513     3.0891
+  weight sum                          1505       2154
+  precision                         0.0243     0.0243
+
+TCPMaxsizeIn_Kurt
+  mean                              2.0738     9.1141
+  std. dev.                         0.7548    11.6274
+  weight sum                          1505       2154
+  precision                         0.0152     0.0152
+
+TCPMaxsizeIn_Iqr
+  mean                              7.8084     4.0664
+  std. dev.                         2.6071     4.2156
+  weight sum                          1505       2154
+  precision                         0.0081     0.0081
+
+TCPMaxsizeIn_Mcr
+  mean                              6.3047     4.3981
+  std. dev.                         1.1073     1.9353
+  weight sum                          1505       2154
+  precision                           0.25       0.25
+
+TCPMaxsizeIn_FreqPeak
+  mean                              0.0182      0.007
+  std. dev.                         0.0236     0.0117
+  weight sum                          1505       2154
+  precision                         0.0025     0.0025
+
+TCPMaxsizeIn_FreqEntropy
+  mean                              3.6033     3.2367
+  std. dev.                         0.2483     0.3851
+  weight sum                          1505       2154
+  precision                         0.0026     0.0026
+
+TCPMaxsizeIn_FreqEnergy
+  mean                           4257.5783  9164.6158
+  std. dev.                      1337.4803  2660.8113
+  weight sum                          1505       2154
+  precision                         3.2429     3.2429
+
+TCPMaxsizeIn_FreqLastEnergy
+  mean                           4234.5911  9149.8181
+  std. dev.                      1445.5743  2673.8528
+  weight sum                          1505       2154
+  precision                          3.566      3.566
+
+TCPMaxsizeOut_Mean
+  mean                             12.7403    14.3938
+  std. dev.                         0.8616     0.7639
+  weight sum                          1505       2154
+  precision                         0.0035     0.0035
+
+TCPMaxsizeOut_LastMean
+  mean                              12.611    14.3827
+  std. dev.                         1.6015     0.7801
+  weight sum                          1505       2154
+  precision                         0.0049     0.0049
+
+TCPMaxsizeOut_Std
+  mean                              3.5887     1.3347
+  std. dev.                          1.044     1.2662
+  weight sum                          1505       2154
+  precision                          0.002      0.002
+
+TCPMaxsizeOut_Median
+  mean                             14.7493     14.795
+  std. dev.                         0.3586     0.3622
+  weight sum                          1505       2154
+  precision                         0.6174     0.6174
+
+TCPMaxsizeOut_Max
+  mean                             14.9688    14.9921
+  std. dev.                         0.0911     0.0479
+  weight sum                          1505       2154
+  precision                         0.0375     0.0375
+
+TCPMaxsizeOut_Min
+  mean                              1.7462     8.4453
+  std. dev.                         2.9133     5.4753
+  weight sum                          1505       2154
+  precision                         0.0388     0.0388
+
+TCPMaxsizeOut_MeanDeriv
+  mean                              3.2629     0.9103
+  std. dev.                         1.2012     1.0724
+  weight sum                          1505       2154
+  precision                         0.0022     0.0022
+
+TCPMaxsizeOut_StdDeriv
+  mean                              3.9157     1.6142
+  std. dev.                         1.0487      1.452
+  weight sum                          1505       2154
+  precision                         0.0019     0.0019
+
+TCPMaxsizeOut_MaxDeriv
+  mean                             13.0132     6.4617
+  std. dev.                         2.9332     5.4103
+  weight sum                          1505       2154
+  precision                         0.0308     0.0308
+
+TCPMaxsizeOut_Kurt
+  mean                              6.0009    20.2234
+  std. dev.                         3.7449    17.0262
+  weight sum                          1505       2154
+  precision                         0.0178     0.0178
+
+TCPMaxsizeOut_Iqr
+  mean                              3.0035     0.4161
+  std. dev.                          2.225      1.016
+  weight sum                          1505       2154
+  precision                         0.0324     0.0324
+
+TCPMaxsizeOut_Mcr
+  mean                              5.4804     2.9329
+  std. dev.                         1.3994     1.8964
+  weight sum                          1505       2154
+  precision                           0.25       0.25
+
+TCPMaxsizeOut_FreqPeak
+  mean                              0.0072     0.0045
+  std. dev.                         0.0086     0.0038
+  weight sum                          1505       2154
+  precision                         0.0035     0.0035
+
+TCPMaxsizeOut_FreqEntropy
+  mean                              3.4404       3.01
+  std. dev.                         0.2837     0.3387
+  weight sum                          1505       2154
+  precision                         0.0034     0.0034
+
+TCPMaxsizeOut_FreqEnergy
+  mean                           9968.9256 11695.3982
+  std. dev.                      1025.7806  1147.8617
+  weight sum                          1505       2154
+  precision                         3.7161     3.7161
+
+TCPMaxsizeOut_FreqLastEnergy
+  mean                           9876.7371 11687.0547
+  std. dev.                      1465.1417  1147.4992
+  weight sum                          1505       2154
+  precision                         4.0858     4.0858
+
+Net_Cluster1
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster2
+  mean                              0.0001          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster4
+  mean                              0.0002     0.0108
+  std. dev.                         0.0018     0.0111
+  weight sum                          1505       2154
+  precision                          0.003      0.003
+
+Net_Cluster5
+  mean                              0.0001          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster6
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster7
+  mean                              0.0001          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster8
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster9
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster10
+  mean                              0.0001     0.0036
+  std. dev.                         0.0026     0.0144
+  weight sum                          1505       2154
+  precision                         0.0045     0.0045
+
+Net_Cluster11
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster12
+  mean                              0.0006     0.0103
+  std. dev.                         0.0041     0.0135
+  weight sum                          1505       2154
+  precision                          0.002      0.002
+
+Net_Cluster13
+  mean                              0.0002     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster14
+  mean                                   0     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster15
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster16
+  mean                              0.0001     0.0001
+  std. dev.                              0     0.0001
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster17
+  mean                                   0     0.0004
+  std. dev.                          0.004     0.0069
+  weight sum                          1505       2154
+  precision                          0.024      0.024
+
+Net_Cluster18
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster19
+  mean                               0.003     0.0067
+  std. dev.                         0.0039     0.0032
+  weight sum                          1505       2154
+  precision                         0.0011     0.0011
+
+Net_Cluster20
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster22
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster23
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster24
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster25
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster26
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster27
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster28
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster29
+  mean                                   0          0
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Net_Cluster30
+  mean                              0.0006     0.0096
+  std. dev.                         0.0039     0.0134
+  weight sum                          1505       2154
+  precision                         0.0019     0.0019
+
+Net_Cluster31
+  mean                              0.0001     0.0001
+  std. dev.                              0          0
+  weight sum                          1505       2154
+  precision                              0          0
+
+Topic1
+  mean                              0.0096     0.2703
+  std. dev.                         0.0875     0.4335
+  weight sum                          1505       2154
+  precision                         0.0064     0.0064
+
+Topic2
+  mean                              0.4059     0.1448
+  std. dev.                         0.4817     0.3438
+  weight sum                          1505       2154
+  precision                         0.0059     0.0059
+
+Topic3
+  mean                              0.4804     0.1376
+  std. dev.                         0.4912     0.3342
+  weight sum                          1505       2154
+  precision                         0.0058     0.0058
+
+Topic4
+  mean                              0.0226     0.2469
+  std. dev.                         0.1341     0.4206
+  weight sum                          1505       2154
+  precision                         0.0061     0.0061
+
+Topic5
+  mean                              0.0816     0.2004
+  std. dev.                         0.2634     0.3906
+  weight sum                          1505       2154
+  precision                         0.0061     0.0061
+
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3187               87.1003 %
+Incorrectly Classified Instances       472               12.8997 %
+Kappa statistic                          0.7415
+Mean absolute error                      0.1293
+Root mean squared error                  0.3588
+Relative absolute error                 26.697  %
+Root relative squared error             72.9198 %
+Coverage of cases (0.95 level)          87.2369 %
+Mean rel. region size (0.95 level)      50.1913 %
+Total Number of Instances             3659     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.944    0.180    0.786      0.944    0.858      0.752    0.905     0.803     0
+                 0.820    0.056    0.955      0.820    0.882      0.752    0.947     0.945     1
+Weighted Avg.    0.871    0.107    0.885      0.871    0.872      0.752    0.930     0.887     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1421   84 |    a = 0
+  388 1766 |    b = 1
+

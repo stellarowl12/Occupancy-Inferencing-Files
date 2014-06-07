@@ -1,0 +1,302 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     occ_all-weka.filters.unsupervised.attribute.Remove-R75-weka.filters.unsupervised.attribute.Remove-R3-50-weka.filters.unsupervised.attribute.Remove-R19-26
+Instances:    1828
+Attributes:   19
+              DayOfWeek
+              HourOfDay
+              Water_Mean
+              Water_LastMean
+              Water_Std
+              Water_Median
+              Water_Max
+              Water_Min
+              Water_MeanDeriv
+              Water_StdDeriv
+              Water_MaxDeriv
+              Water_Kurt
+              Water_Iqr
+              Water_Mcr
+              Water_FreqPeak
+              Water_FreqEntropy
+              Water_FreqEnergy
+              Water_FreqLastEnergy
+              label_occ
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -12.478837038470926
+    Node 2    -4.247791599510456
+    Node 3    8.520219868670614
+    Node 4    -0.5139396290038231
+    Node 5    4.466393187975337
+    Node 6    -3.005564941787104
+    Node 7    -3.1716129895050584
+    Node 8    9.193938698563263
+    Node 9    -6.674003589790778
+    Node 10    3.952551175609141
+    Node 11    -6.315237343088653
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    12.478542699121196
+    Node 2    4.247938524800755
+    Node 3    -8.51994623497403
+    Node 4    0.4569288271057986
+    Node 5    -4.466252478208702
+    Node 6    3.0067804989830322
+    Node 7    3.1717915580626186
+    Node 8    -9.193600110709534
+    Node 9    6.6743468934159225
+    Node 10    -3.952500272438045
+    Node 11    6.315230201103521
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.02556783666434994
+    Attrib DayOfWeek    -3.3871989669964617
+    Attrib HourOfDay    -41.61422327444904
+    Attrib Water_Mean    -0.2654533180376303
+    Attrib Water_LastMean    0.08424258723418107
+    Attrib Water_Std    0.3418095699621775
+    Attrib Water_Median    0.2913921662005134
+    Attrib Water_Max    0.027470058932336845
+    Attrib Water_Min    -4.090761661998862
+    Attrib Water_MeanDeriv    0.3548950417323022
+    Attrib Water_StdDeriv    0.34335201249780817
+    Attrib Water_MaxDeriv    0.432434809185158
+    Attrib Water_Kurt    3.739298501570412
+    Attrib Water_Iqr    0.17753666834752052
+    Attrib Water_Mcr    4.446060886441156
+    Attrib Water_FreqPeak    -5.040801938196434
+    Attrib Water_FreqEntropy    -7.0521397550557365
+    Attrib Water_FreqEnergy    -0.049192988166718195
+    Attrib Water_FreqLastEnergy    -0.012536788326693457
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    0.018327029565253394
+    Attrib DayOfWeek    -26.124919735516027
+    Attrib HourOfDay    20.7689385189792
+    Attrib Water_Mean    0.5118529687935142
+    Attrib Water_LastMean    -1.0818896453485065
+    Attrib Water_Std    0.3483602249270424
+    Attrib Water_Median    0.10482943444133527
+    Attrib Water_Max    0.4004732758333593
+    Attrib Water_Min    1.3076313905029067
+    Attrib Water_MeanDeriv    0.2966441316332869
+    Attrib Water_StdDeriv    0.3281844227918932
+    Attrib Water_MaxDeriv    0.3030205731050862
+    Attrib Water_Kurt    -2.9121372262160623
+    Attrib Water_Iqr    0.5634606588632829
+    Attrib Water_Mcr    -3.0900198730944015
+    Attrib Water_FreqPeak    -0.3833104939098963
+    Attrib Water_FreqEntropy    5.503275937044756
+    Attrib Water_FreqEnergy    0.056578073123444664
+    Attrib Water_FreqLastEnergy    -0.0014381752269116478
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.45751756538237887
+    Attrib DayOfWeek    -0.3323175991429857
+    Attrib HourOfDay    -2.0150938772585962
+    Attrib Water_Mean    0.40371458848044817
+    Attrib Water_LastMean    0.4023438229227522
+    Attrib Water_Std    0.44289856048597165
+    Attrib Water_Median    0.3647243236170673
+    Attrib Water_Max    0.4194017580431961
+    Attrib Water_Min    -0.24440720109725136
+    Attrib Water_MeanDeriv    0.4392332500025338
+    Attrib Water_StdDeriv    0.44437953082139936
+    Attrib Water_MaxDeriv    0.42712100229718386
+    Attrib Water_Kurt    -0.40704769663493073
+    Attrib Water_Iqr    0.32513595310769916
+    Attrib Water_Mcr    -0.8189435959045678
+    Attrib Water_FreqPeak    -0.026182346561202923
+    Attrib Water_FreqEntropy    -0.7109695042457419
+    Attrib Water_FreqEnergy    0.39224593147677955
+    Attrib Water_FreqLastEnergy    0.4227032832894667
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.1516179679494578
+    Attrib DayOfWeek    23.966937326003592
+    Attrib HourOfDay    -22.375867493098394
+    Attrib Water_Mean    0.1372949753994881
+    Attrib Water_LastMean    -2.2354300515279326
+    Attrib Water_Std    0.0254997725970565
+    Attrib Water_Median    1.2921242021056352
+    Attrib Water_Max    0.069381183828217
+    Attrib Water_Min    0.42408678365384417
+    Attrib Water_MeanDeriv    0.0703005209735049
+    Attrib Water_StdDeriv    0.08351797008131284
+    Attrib Water_MaxDeriv    0.06562589318074241
+    Attrib Water_Kurt    0.37750143022801264
+    Attrib Water_Iqr    0.17205930234506228
+    Attrib Water_Mcr    -2.8936174696770656
+    Attrib Water_FreqPeak    4.836539742000928
+    Attrib Water_FreqEntropy    -8.87385800438238
+    Attrib Water_FreqEnergy    -0.1789829726390902
+    Attrib Water_FreqLastEnergy    -0.03925490203994716
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.4210970339229477
+    Attrib DayOfWeek    0.47958414134132793
+    Attrib HourOfDay    -5.5221208242799875
+    Attrib Water_Mean    0.4707218383250232
+    Attrib Water_LastMean    0.3185239684730478
+    Attrib Water_Std    0.5185947834841705
+    Attrib Water_Median    0.43953036262025175
+    Attrib Water_Max    0.5502928581331673
+    Attrib Water_Min    -0.3111655311549727
+    Attrib Water_MeanDeriv    0.4454873296944115
+    Attrib Water_StdDeriv    0.5050663838288995
+    Attrib Water_MaxDeriv    0.46968325941635053
+    Attrib Water_Kurt    -3.4156171863856977
+    Attrib Water_Iqr    0.425412411697137
+    Attrib Water_Mcr    -5.795443010479184
+    Attrib Water_FreqPeak    -0.043102547167417786
+    Attrib Water_FreqEntropy    -3.8739391504444596
+    Attrib Water_FreqEnergy    0.4244598087048927
+    Attrib Water_FreqLastEnergy    0.42604435623317843
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.4953303818336913
+    Attrib DayOfWeek    -2.9669410822905338
+    Attrib HourOfDay    -5.591766037275938
+    Attrib Water_Mean    0.5205934893716456
+    Attrib Water_LastMean    0.4349986079408825
+    Attrib Water_Std    0.5792892021459658
+    Attrib Water_Median    0.05837314629389961
+    Attrib Water_Max    0.6170169698907908
+    Attrib Water_Min    -0.20700147572934716
+    Attrib Water_MeanDeriv    0.5890780362726473
+    Attrib Water_StdDeriv    0.6212964854549158
+    Attrib Water_MaxDeriv    0.554217815449957
+    Attrib Water_Kurt    -1.2276584514101185
+    Attrib Water_Iqr    0.2301305350297174
+    Attrib Water_Mcr    -5.608638502245793
+    Attrib Water_FreqPeak    0.045318693595119044
+    Attrib Water_FreqEntropy    -0.8661176178519283
+    Attrib Water_FreqEnergy    0.5730402964445063
+    Attrib Water_FreqLastEnergy    0.5461845169337567
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    2.057008704449291
+    Attrib DayOfWeek    -0.8233498052166138
+    Attrib HourOfDay    -31.58839260158324
+    Attrib Water_Mean    -1.0200733479384576
+    Attrib Water_LastMean    -3.6222329522141212
+    Attrib Water_Std    -0.8731674731747173
+    Attrib Water_Median    1.6423936000062904
+    Attrib Water_Max    -1.0734096605778773
+    Attrib Water_Min    -0.5180171814453534
+    Attrib Water_MeanDeriv    -0.8538003035366302
+    Attrib Water_StdDeriv    -0.8819658058623463
+    Attrib Water_MaxDeriv    -0.9143790915522516
+    Attrib Water_Kurt    -2.281912546627954
+    Attrib Water_Iqr    0.5075798180429163
+    Attrib Water_Mcr    0.4686169224996919
+    Attrib Water_FreqPeak    -1.6509556010764987
+    Attrib Water_FreqEntropy    -3.773300070671763
+    Attrib Water_FreqEnergy    -2.0283847243094075
+    Attrib Water_FreqLastEnergy    -2.0398852211575718
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.3600533286291225
+    Attrib DayOfWeek    -3.7578237877022453
+    Attrib HourOfDay    -31.474176068089587
+    Attrib Water_Mean    0.5612383189509906
+    Attrib Water_LastMean    -0.29263402052096255
+    Attrib Water_Std    0.7786137391845477
+    Attrib Water_Median    1.090936973142163
+    Attrib Water_Max    0.7222085885293954
+    Attrib Water_Min    -1.3893257505189966
+    Attrib Water_MeanDeriv    0.7808082397918635
+    Attrib Water_StdDeriv    0.7974816468749235
+    Attrib Water_MaxDeriv    0.7681166587884016
+    Attrib Water_Kurt    4.607950254842635
+    Attrib Water_Iqr    1.647697060686026
+    Attrib Water_Mcr    6.27645260983915
+    Attrib Water_FreqPeak    1.3291438037106607
+    Attrib Water_FreqEntropy    -1.258183480289897
+    Attrib Water_FreqEnergy    0.3854524566442414
+    Attrib Water_FreqLastEnergy    0.3649809794131525
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.4889022140044068
+    Attrib DayOfWeek    7.398097534552916
+    Attrib HourOfDay    -4.635923170914338
+    Attrib Water_Mean    -0.4097245144439746
+    Attrib Water_LastMean    0.025558249948541556
+    Attrib Water_Std    -0.31731661293932334
+    Attrib Water_Median    -0.1774515554211146
+    Attrib Water_Max    -0.41146848400109376
+    Attrib Water_Min    -0.17241467635063376
+    Attrib Water_MeanDeriv    -0.31394437293137806
+    Attrib Water_StdDeriv    -0.37877866799866655
+    Attrib Water_MaxDeriv    -0.305572584367597
+    Attrib Water_Kurt    1.8758597826576997
+    Attrib Water_Iqr    -0.562085996192894
+    Attrib Water_Mcr    -0.9446013864177843
+    Attrib Water_FreqPeak    7.270655185543283
+    Attrib Water_FreqEntropy    -18.670101194392487
+    Attrib Water_FreqEnergy    -0.5093903539081981
+    Attrib Water_FreqLastEnergy    -0.490017998934901
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.35831182171620163
+    Attrib DayOfWeek    -7.312891584283072
+    Attrib HourOfDay    15.967108261114594
+    Attrib Water_Mean    0.44006781546927826
+    Attrib Water_LastMean    0.08600004252297613
+    Attrib Water_Std    0.550612982816398
+    Attrib Water_Median    0.9581454150889843
+    Attrib Water_Max    0.5409309663507185
+    Attrib Water_Min    -0.52429619182421
+    Attrib Water_MeanDeriv    0.5160167978316851
+    Attrib Water_StdDeriv    0.5145993811082993
+    Attrib Water_MaxDeriv    0.5744151879965688
+    Attrib Water_Kurt    -6.800193980997252
+    Attrib Water_Iqr    0.9466905739518049
+    Attrib Water_Mcr    -10.176864925549147
+    Attrib Water_FreqPeak    0.8700443084202406
+    Attrib Water_FreqEntropy    -14.629036719844455
+    Attrib Water_FreqEnergy    0.4009157326009319
+    Attrib Water_FreqLastEnergy    0.40382273209697034
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Time taken to build model: 3.78 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1657               90.6455 %
+Incorrectly Classified Instances       171                9.3545 %
+Kappa statistic                          0.7431
+Mean absolute error                      0.1173
+Root mean squared error                  0.2651
+Relative absolute error                 32.4772 %
+Root relative squared error             62.4044 %
+Coverage of cases (0.95 level)          98.1947 %
+Mean rel. region size (0.95 level)      63.1838 %
+Total Number of Instances             1828     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.815    0.065    0.795      0.815    0.805      0.743    0.947     0.859     0
+                 0.935    0.185    0.942      0.935    0.939      0.743    0.947     0.980     1
+Weighted Avg.    0.906    0.157    0.907      0.906    0.907      0.743    0.947     0.951     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  352   80 |    a = 0
+   91 1305 |    b = 1
+

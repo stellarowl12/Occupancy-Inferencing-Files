@@ -1,0 +1,94 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     occ_all-weka.filters.unsupervised.attribute.Remove-R75-weka.filters.unsupervised.attribute.Remove-R51-74
+Instances:    1828
+Attributes:   51
+              DayOfWeek
+              HourOfDay
+              RealPow_Mean
+              RealPow_LastMean
+              RealPow_Std
+              RealPow_Median
+              RealPow_Max
+              RealPow_Min
+              RealPow_MeanDeriv
+              RealPow_StdDeriv
+              RealPow_MaxDeriv
+              RealPow_Kurt
+              RealPow_Iqr
+              RealPow_Mcr
+              RealPow_FreqPeak
+              RealPow_FreqEntropy
+              RealPow_FreqEnergy
+              RealPow_FreqLastEnergy
+              ReactPow_Mean
+              ReactPow_LastMean
+              ReactPow_Std
+              ReactPow_Median
+              ReactPow_Max
+              ReactPow_Min
+              ReactPow_MeanDeriv
+              ReactPow_StdDeriv
+              ReactPow_MaxDeriv
+              ReactPow_Kurt
+              ReactPow_Iqr
+              ReactPow_Mcr
+              ReactPow_FreqPeak
+              ReactPow_FreqEntropy
+              ReactPow_FreqEnergy
+              ReactPow_FreqLastEnergy
+              Power_Cluster1
+              Power_Cluster2
+              Power_Cluster4
+              Power_Cluster5
+              Power_Cluster6
+              Power_Cluster7
+              Power_Cluster8
+              Power_Cluster9
+              Power_Cluster10
+              Power_Cluster13
+              Power_Cluster14
+              Power_Cluster15
+              Power_Cluster16
+              Power_Cluster17
+              Power_Cluster18
+              Power_Cluster19
+              label_occ
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1643               89.8796 %
+Incorrectly Classified Instances       185               10.1204 %
+Kappa statistic                          0.7198
+Mean absolute error                      0.1194
+Root mean squared error                  0.2718
+Relative absolute error                 33.0701 %
+Root relative squared error             63.9897 %
+Coverage of cases (0.95 level)          97.3742 %
+Mean rel. region size (0.95 level)      60.2024 %
+Total Number of Instances             1828     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.787    0.067    0.785      0.787    0.786      0.720    0.934     0.822     0
+                 0.933    0.213    0.934      0.933    0.934      0.720    0.934     0.967     1
+Weighted Avg.    0.899    0.178    0.899      0.899    0.899      0.720    0.934     0.933     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  340   92 |    a = 0
+   93 1303 |    b = 1
+

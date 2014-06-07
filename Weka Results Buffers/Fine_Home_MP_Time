@@ -1,0 +1,107 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     occ_all-weka.filters.unsupervised.attribute.Remove-R3-74
+Instances:    1828
+Attributes:   3
+              DayOfWeek
+              HourOfDay
+              label_num
+Test mode:    5-fold cross-validation
+Evaluation cost matrix:
+ 0 1 2 3
+ 1 0 1 2
+ 2 1 0 1
+ 3 2 1 0
+
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -2.925720923817461
+    Node 4    -7.9064143810632865
+    Node 5    4.691086230883351
+    Node 6    -2.5322631438471555
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.579270701907667
+    Node 4    -3.1032254851889873
+    Node 5    1.95078091754086
+    Node 6    -0.17632074564858854
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -3.7970569041887847
+    Node 4    -5.82238739041262
+    Node 5    1.0263443503102685
+    Node 6    3.612833461020158
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.915928126051764
+    Node 4    6.652297358795157
+    Node 5    -7.57474365320191
+    Node 6    2.471625216598573
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -7.377128538551812
+    Attrib DayOfWeek    -1.0756235631430022
+    Attrib HourOfDay    -22.011945464103196
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    5.315970463081766
+    Attrib DayOfWeek    -2.303520135343716
+    Attrib HourOfDay    -9.432541710692004
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -4.0326037234399985
+    Attrib DayOfWeek    -0.769256696703589
+    Attrib HourOfDay    -27.210882116211888
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+Class 2
+    Input
+    Node 2
+Class 3
+    Input
+    Node 3
+
+
+Time taken to build model: 0.92 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1529               83.6433 %
+Incorrectly Classified Instances       299               16.3567 %
+Kappa statistic                          0.7022
+Total Cost                             459     
+Average Cost                             0.2511
+Mean absolute error                      0.1181
+Root mean squared error                  0.2416
+Relative absolute error                 41.6126 %
+Root relative squared error             64.1549 %
+Coverage of cases (0.95 level)          98.4136 %
+Mean rel. region size (0.95 level)      51.5591 %
+Total Number of Instances             1828     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.889    0.127    0.684      0.889    0.773      0.702    0.933     0.758     0
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.826     0.179     1
+                 0.418    0.042    0.517      0.418    0.463      0.414    0.900     0.512     2
+                 0.972    0.073    0.953      0.972    0.962      0.904    0.987     0.991     3
+Weighted Avg.    0.836    0.078    0.786      0.836    0.808      0.751    0.956     0.838     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+  384    0   31   17 |    a = 0
+   96    0   17    4 |    b = 1
+   71    0   74   32 |    c = 2
+   10    0   21 1071 |    d = 3
+

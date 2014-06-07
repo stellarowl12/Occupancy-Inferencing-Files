@@ -1,0 +1,56 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     occ_data_all-weka.filters.unsupervised.attribute.Remove-R163,165,167-169,174-177-weka.filters.unsupervised.attribute.Remove-R158-162,164-168-weka.filters.unsupervised.attribute.Remove-R4-48
+Instances:    3659
+Attributes:   113
+              [list of attributes omitted]
+Test mode:    5-fold cross-validation
+Evaluation cost matrix:
+  0     2     5.5  10   
+  2     0     3.5   8   
+  5.5   3.5   0     4.5 
+ 10     8     4.5   0   
+
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2827               77.2615 %
+Incorrectly Classified Instances       832               22.7385 %
+Kappa statistic                          0.6712
+Total Cost                            3039     
+Average Cost                             0.8306
+Mean absolute error                      0.1254
+Root mean squared error                  0.2852
+Relative absolute error                 36.091  %
+Root relative squared error             68.4337 %
+Coverage of cases (0.95 level)          91.9377 %
+Mean rel. region size (0.95 level)      35.2214 %
+Total Number of Instances             3659     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.924    0.048    0.930      0.924    0.927      0.877    0.974     0.965     0
+                 0.758    0.121    0.712      0.758    0.735      0.626    0.903     0.752     1
+                 0.638    0.107    0.629      0.638    0.633      0.528    0.870     0.584     2
+                 0.435    0.031    0.561      0.435    0.490      0.454    0.807     0.410     3
+Weighted Avg.    0.773    0.080    0.771      0.773    0.771      0.693    0.917     0.774     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1390  110    4    0 |    a = 0
+   90  785  149   11 |    b = 1
+   14  186  518   94 |    c = 2
+    0   21  153  134 |    d = 3
+

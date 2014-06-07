@@ -1,0 +1,141 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -I 10 -K 0 -S 1 -num-slots 1
+Relation:     occ_data_all-weka.filters.unsupervised.attribute.Remove-R163,165-177-weka.filters.unsupervised.attribute.Remove-R158-162-weka.filters.unsupervised.attribute.Remove-R2,6,10-19,22,26-33,37-39,41,43-44,46,48,51,55-62,68,70,75,77,86,90,92-94,101,104,109,117,122,125,128-130,133,135-137,139,142,144-147,149-150,153-157
+Instances:    3659
+Attributes:   85
+              Light
+              TimeOfDay
+              RealPow_Mean
+              RealPow_LastMean
+              RealPow_Median
+              RealPow_Max
+              RealPow_Min
+              ReactPow_Mean
+              ReactPow_LastMean
+              ReactPow_Median
+              ReactPow_Max
+              ReactPow_Min
+              ReactPow_FreqEnergy
+              ReactPow_FreqLastEnergy
+              Power_Cluster2
+              Power_Cluster6
+              Power_Cluster11
+              Power_Cluster15
+              Power_Cluster17
+              PeerCount_Mean
+              PeerCount_LastMean
+              PeerCount_Median
+              PeerCount_Max
+              PeerCount_Min
+              PeerCount_FreqEnergy
+              PeerCount_FreqLastEnergy
+              TCPCountIn_Mean
+              TCPCountIn_LastMean
+              TCPCountIn_Std
+              TCPCountIn_Max
+              TCPCountIn_MeanDeriv
+              TCPCountIn_StdDeriv
+              TCPCountIn_MaxDeriv
+              TCPCountIn_Kurt
+              TCPCountIn_Mcr
+              TCPCountIn_FreqEntropy
+              TCPCountIn_FreqEnergy
+              TCPCountIn_FreqLastEnergy
+              TCPCountOut_Mean
+              TCPCountOut_LastMean
+              TCPCountOut_Std
+              TCPCountOut_Median
+              TCPCountOut_Max
+              TCPCountOut_MeanDeriv
+              TCPCountOut_StdDeriv
+              TCPCountOut_MaxDeriv
+              TCPCountOut_Iqr
+              TCPCountOut_FreqEnergy
+              TCPCountOut_FreqLastEnergy
+              TCPMaxsizeIn_Mean
+              TCPMaxsizeIn_LastMean
+              TCPMaxsizeIn_Std
+              TCPMaxsizeIn_Median
+              TCPMaxsizeIn_Min
+              TCPMaxsizeIn_MeanDeriv
+              TCPMaxsizeIn_MaxDeriv
+              TCPMaxsizeIn_Kurt
+              TCPMaxsizeIn_Iqr
+              TCPMaxsizeIn_Mcr
+              TCPMaxsizeIn_FreqEntropy
+              TCPMaxsizeIn_FreqEnergy
+              TCPMaxsizeIn_FreqLastEnergy
+              TCPMaxsizeOut_Mean
+              TCPMaxsizeOut_LastMean
+              TCPMaxsizeOut_Std
+              TCPMaxsizeOut_Median
+              TCPMaxsizeOut_Min
+              TCPMaxsizeOut_MeanDeriv
+              TCPMaxsizeOut_StdDeriv
+              TCPMaxsizeOut_MaxDeriv
+              TCPMaxsizeOut_Iqr
+              TCPMaxsizeOut_Mcr
+              TCPMaxsizeOut_FreqEntropy
+              TCPMaxsizeOut_FreqEnergy
+              Net_Cluster4
+              Net_Cluster5
+              Net_Cluster7
+              Net_Cluster11
+              Net_Cluster13
+              Net_Cluster14
+              Net_Cluster16
+              Net_Cluster22
+              Net_Cluster25
+              Net_Cluster26
+              label_num
+Test mode:    5-fold cross-validation
+Evaluation cost matrix:
+  0     2     5.5  10   
+  2     0     3.5   8   
+  5.5   3.5   0     4.5 
+ 10     8     4.5   0   
+
+
+=== Classifier model (full training set) ===
+
+Random forest of 10 trees, each constructed while considering 7 random features.
+Out of bag error: 0.2199
+
+
+
+Time taken to build model: 0.26 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3001               82.0169 %
+Incorrectly Classified Instances       658               17.9831 %
+Kappa statistic                          0.7387
+Total Cost                            2253.5   
+Average Cost                             0.6159
+Mean absolute error                      0.1342
+Root mean squared error                  0.2553
+Relative absolute error                 38.6361 %
+Root relative squared error             61.2579 %
+Coverage of cases (0.95 level)          98.7155 %
+Mean rel. region size (0.95 level)      47.7521 %
+Total Number of Instances             3659     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.946    0.059    0.918      0.946    0.932      0.883    0.985     0.979     0
+                 0.784    0.080    0.794      0.784    0.789      0.706    0.937     0.833     1
+                 0.772    0.093    0.704      0.772    0.736      0.658    0.931     0.723     2
+                 0.455    0.017    0.714      0.455    0.556      0.540    0.942     0.612     3
+Weighted Avg.    0.820    0.069    0.818      0.820    0.816      0.754    0.956     0.850     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1423   79    2    0 |    a = 0
+  124  811   97    3 |    b = 1
+    3  129  627   53 |    c = 2
+    0    3  165  140 |    d = 3
+

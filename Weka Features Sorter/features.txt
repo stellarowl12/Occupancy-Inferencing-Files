@@ -1,0 +1,13 @@
+ 0     +- 0          55.4 +- 3.32     15 RealPow_FreqPeak
+ 0     +- 0          57.1 +- 3.39     39 Power_Cluster6
+ 0     +- 0          57.4 +- 3.61     38 Power_Cluster5
+ 0     +- 0          58.1 +- 3.05     40 Power_Cluster7
+ 0     +- 0          58.6 +- 3.35     42 Power_Cluster9
+ 0     +- 0          58.8 +- 3.31     46 Power_Cluster15
+ 0     +- 0          59.3 +- 2.97     47 Power_Cluster16
+ 0     +- 0          60.3 +- 3.55     43 Power_Cluster10
+ 0     +- 0          60.7 +- 2.19     32 ReactPow_FreqEntropy
+ 0     +- 0          61.1 +- 4.09     31 ReactPow_FreqPeak
+ 0     +- 0          61.3 +- 1.68     16 RealPow_FreqEntropy
+ 0     +- 0          61.4 +- 3.77     49 Power_Cluster18
+ 0     +- 0          65   +- 2.1      50 Power_Cluster19

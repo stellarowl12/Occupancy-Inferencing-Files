@@ -1,0 +1,396 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     occ_data_all-weka.filters.unsupervised.attribute.Remove-R163,165-177-weka.filters.unsupervised.attribute.Remove-R49-162
+Instances:    3659
+Attributes:   49
+              Light
+              DayOfWeek
+              TimeOfDay
+              RealPow_Mean
+              RealPow_LastMean
+              RealPow_Std
+              RealPow_Median
+              RealPow_Max
+              RealPow_Min
+              RealPow_MeanDeriv
+              RealPow_StdDeriv
+              RealPow_MaxDeriv
+              RealPow_Kurt
+              RealPow_Iqr
+              RealPow_Mcr
+              RealPow_FreqPeak
+              RealPow_FreqEntropy
+              RealPow_FreqEnergy
+              RealPow_FreqLastEnergy
+              ReactPow_Mean
+              ReactPow_LastMean
+              ReactPow_Std
+              ReactPow_Median
+              ReactPow_Max
+              ReactPow_Min
+              ReactPow_MeanDeriv
+              ReactPow_StdDeriv
+              ReactPow_MaxDeriv
+              ReactPow_Kurt
+              ReactPow_Iqr
+              ReactPow_Mcr
+              ReactPow_FreqPeak
+              ReactPow_FreqEntropy
+              ReactPow_FreqEnergy
+              ReactPow_FreqLastEnergy
+              Power_Cluster2
+              Power_Cluster3
+              Power_Cluster4
+              Power_Cluster5
+              Power_Cluster6
+              Power_Cluster9
+              Power_Cluster11
+              Power_Cluster12
+              Power_Cluster14
+              Power_Cluster15
+              Power_Cluster16
+              Power_Cluster17
+              Power_Cluster18
+              label_num
+Test mode:    5-fold cross-validation
+Evaluation cost matrix:
+  0     2     5.5  10   
+  2     0     3.5   8   
+  5.5   3.5   0     4.5 
+ 10     8     4.5   0   
+
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                             Class
+Attribute                        0        1        2        3
+                            (0.41)   (0.28)   (0.22)   (0.08)
+==============================================================
+Light
+  mean                       0.1449   0.9894        1        1
+  std. dev.                   0.352   0.1667   0.1667   0.1667
+  weight sum                   1504     1035      812      308
+  precision                       1        1        1        1
+
+DayOfWeek
+  mean                       4.2121   3.4676   2.4397   2.5942
+  std. dev.                  2.4301   2.1467   1.3473    1.497
+  weight sum                   1504     1035      812      308
+  precision                       1        1        1        1
+
+TimeOfDay
+  mean                       13.988   14.885  14.7438  14.7825
+  std. dev.                  6.6376   4.7027   3.0194   1.7987
+  weight sum                   1504     1035      812      308
+  precision                       1        1        1        1
+
+RealPow_Mean
+  mean                        1.532   1.6431   1.8676   2.0267
+  std. dev.                  0.1153   0.1531   0.1824   0.2147
+  weight sum                   1504     1035      812      308
+  precision                  0.0004   0.0004   0.0004   0.0004
+
+RealPow_LastMean
+  mean                       1.5152    1.643   1.8706   2.0143
+  std. dev.                  0.1995   0.1549    0.187   0.2102
+  weight sum                   1504     1035      812      308
+  precision                  0.0008   0.0008   0.0008   0.0008
+
+RealPow_Std
+  mean                       0.1003   0.1153   0.1307    0.139
+  std. dev.                  0.1063   0.1148   0.1188   0.1212
+  weight sum                   1504     1035      812      308
+  precision                  0.0002   0.0002   0.0002   0.0002
+
+RealPow_Median
+  mean                       1.4803   1.5937   1.8157   1.9748
+  std. dev.                  0.0815   0.1417   0.1699   0.2124
+  weight sum                   1504     1035      812      308
+  precision                  0.0004   0.0004   0.0004   0.0004
+
+RealPow_Max
+  mean                       1.7869   1.9547   2.2401   2.3994
+  std. dev.                  0.2655   0.3701    0.438   0.4507
+  weight sum                   1504     1035      812      308
+  precision                  0.0008   0.0008   0.0008   0.0008
+
+RealPow_Min
+  mean                       1.4325   1.5261   1.7326    1.862
+  std. dev.                  0.0705   0.1099    0.147   0.1675
+  weight sum                   1504     1035      812      308
+  precision                  0.0003   0.0003   0.0003   0.0003
+
+RealPow_MeanDeriv
+  mean                        0.021   0.0267   0.0349   0.0356
+  std. dev.                  0.0088   0.0214   0.0265   0.0238
+  weight sum                   1504     1035      812      308
+  precision                  0.0001   0.0001   0.0001   0.0001
+
+RealPow_StdDeriv
+  mean                       0.0411   0.0511   0.0639   0.0626
+  std. dev.                   0.031   0.0516   0.0641   0.0564
+  weight sum                   1504     1035      812      308
+  precision                  0.0001   0.0001   0.0001   0.0001
+
+RealPow_MaxDeriv
+  mean                       0.2868   0.3424   0.4095   0.4163
+  std. dev.                  0.2158   0.2955   0.3558   0.3276
+  weight sum                   1504     1035      812      308
+  precision                  0.0005   0.0005   0.0005   0.0005
+
+RealPow_Kurt
+  mean                      12.5724   10.668   8.4703   8.1656
+  std. dev.                 16.1277  15.1049  11.9208  12.2382
+  weight sum                   1504     1035      812      308
+  precision                  0.0332   0.0332   0.0332   0.0332
+
+RealPow_Iqr
+  mean                       0.1483   0.1606   0.1714   0.1887
+  std. dev.                  0.2191    0.221   0.2198   0.2264
+  weight sum                   1504     1035      812      308
+  precision                  0.0002   0.0002   0.0002   0.0002
+
+RealPow_Mcr
+  mean                       6.4681   5.8933   5.7165   5.7689
+  std. dev.                  6.3056   5.6884   5.3512   5.2636
+  weight sum                   1504     1035      812      308
+  precision                  0.2585   0.2585   0.2585   0.2585
+
+RealPow_FreqPeak
+  mean                       0.0003   0.0006   0.0011   0.0002
+  std. dev.                  0.0053   0.0076   0.0115   0.0021
+  weight sum                   1504     1035      812      308
+  precision                  0.0102   0.0102   0.0102   0.0102
+
+RealPow_FreqEntropy
+  mean                       0.8298   0.8815   0.8988   0.8438
+  std. dev.                  0.3715    0.499   0.4763   0.3781
+  weight sum                   1504     1035      812      308
+  precision                   0.007    0.007    0.007    0.007
+
+RealPow_FreqEnergy
+  mean                     285.4092 327.7219 409.3423 506.2067
+  std. dev.                 89.3454 111.1985 143.1341 180.2325
+  weight sum                   1504     1035      812      308
+  precision                  0.3229   0.3229   0.3229   0.3229
+
+RealPow_FreqLastEnergy
+  mean                     282.2759 328.3267 410.4656 500.4637
+  std. dev.                 94.7703 110.4973 146.6961 176.2791
+  weight sum                   1504     1035      812      308
+  precision                  0.3306   0.3306   0.3306   0.3306
+
+ReactPow_Mean
+  mean                       1.0408   1.1211   1.2579   1.3254
+  std. dev.                  0.0357   0.0769    0.087   0.0869
+  weight sum                   1504     1035      812      308
+  precision                  0.0002   0.0002   0.0002   0.0002
+
+ReactPow_LastMean
+  mean                       1.0293   1.1207    1.258   1.3253
+  std. dev.                  0.1157   0.0777   0.0858    0.088
+  weight sum                   1504     1035      812      308
+  precision                  0.0004   0.0004   0.0004   0.0004
+
+ReactPow_Std
+  mean                       0.0162   0.0255    0.034   0.0328
+  std. dev.                  0.0129   0.0361   0.0429   0.0314
+  weight sum                   1504     1035      812      308
+  precision                  0.0001   0.0001   0.0001   0.0001
+
+ReactPow_Median
+  mean                       1.0394   1.1181   1.2534   1.3217
+  std. dev.                  0.0355   0.0759   0.0848   0.0862
+  weight sum                   1504     1035      812      308
+  precision                  0.0002   0.0002   0.0002   0.0002
+
+ReactPow_Max
+  mean                       1.1264   1.2593   1.4223   1.4758
+  std. dev.                  0.1276   0.2748   0.3169   0.2276
+  weight sum                   1504     1035      812      308
+  precision                   0.001    0.001    0.001    0.001
+
+ReactPow_Min
+  mean                       1.0081   1.0786   1.2036   1.2644
+  std. dev.                  0.0363    0.074    0.082   0.0801
+  weight sum                   1504     1035      812      308
+  precision                  0.0002   0.0002   0.0002   0.0002
+
+ReactPow_MeanDeriv
+  mean                       0.0119   0.0163    0.022   0.0239
+  std. dev.                  0.0047   0.0142   0.0166   0.0144
+  weight sum                   1504     1035      812      308
+  precision                  0.0001   0.0001   0.0001   0.0001
+
+ReactPow_StdDeriv
+  mean                       0.0157   0.0251   0.0312   0.0291
+  std. dev.                  0.0181   0.0422   0.0477   0.0301
+  weight sum                   1504     1035      812      308
+  precision                  0.0002   0.0002   0.0002   0.0002
+
+ReactPow_MaxDeriv
+  mean                       0.0945   0.1475   0.1744   0.1604
+  std. dev.                  0.1202   0.2548   0.2826   0.1813
+  weight sum                   1504     1035      812      308
+  precision                  0.0009   0.0009   0.0009   0.0009
+
+ReactPow_Kurt
+  mean                      13.9015  15.2163  11.4066   9.7627
+  std. dev.                 16.5425  16.8346  14.5519   9.0837
+  weight sum                   1504     1035      812      308
+  precision                  0.0396   0.0396   0.0396   0.0396
+
+ReactPow_Iqr
+  mean                       0.0156     0.02   0.0272   0.0295
+  std. dev.                  0.0074    0.012   0.0142   0.0153
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+ReactPow_Mcr
+  mean                      11.3417  10.1509   9.8347  10.8979
+  std. dev.                  5.2134    4.552   4.5867   4.6133
+  weight sum                   1504     1035      812      308
+  precision                  0.2676   0.2676   0.2676   0.2676
+
+ReactPow_FreqPeak
+  mean                       0.0007   0.0011   0.0012   0.0009
+  std. dev.                  0.0107   0.0107   0.0128   0.0102
+  weight sum                   1504     1035      812      308
+  precision                   0.008    0.008    0.008    0.008
+
+ReactPow_FreqEntropy
+  mean                       0.8298   0.8897   0.9026   0.8487
+  std. dev.                  0.3969   0.5643   0.5389   0.4459
+  weight sum                   1504     1035      812      308
+  precision                   0.013    0.013    0.013    0.013
+
+ReactPow_FreqEnergy
+  mean                     130.1278 150.5987 184.7504 215.3997
+  std. dev.                 35.7077  45.6727  60.5254  69.7667
+  weight sum                   1504     1035      812      308
+  precision                  0.0935   0.0935   0.0935   0.0935
+
+ReactPow_FreqLastEnergy
+  mean                     128.6114 150.8063 184.4446 215.7446
+  std. dev.                 38.2548  45.3244  60.7808  69.4034
+  weight sum                   1504     1035      812      308
+  precision                  0.0972   0.0972   0.0972   0.0972
+
+Power_Cluster2
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster3
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster4
+  mean                       0.0007   0.0008    0.001   0.0012
+  std. dev.                  0.0003   0.0003   0.0004   0.0004
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster5
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster6
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster9
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster11
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster12
+  mean                       0.0001   0.0001   0.0002   0.0002
+  std. dev.                       0        0        0   0.0001
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster14
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster15
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster16
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster17
+  mean                            0        0        0        0
+  std. dev.                       0        0        0        0
+  weight sum                   1504     1035      812      308
+  precision                       0        0        0        0
+
+Power_Cluster18
+  mean                       0.0015   0.0015   0.0016   0.0019
+  std. dev.                  0.0009   0.0009    0.001   0.0011
+  weight sum                   1504     1035      812      308
+  precision                  0.0001   0.0001   0.0001   0.0001
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2348               64.1705 %
+Incorrectly Classified Instances      1311               35.8295 %
+Kappa statistic                          0.4765
+Total Cost                            4323.5   
+Average Cost                             1.1816
+Mean absolute error                      0.179 
+Root mean squared error                  0.4078
+Relative absolute error                 51.5296 %
+Root relative squared error             97.8604 %
+Coverage of cases (0.95 level)          71.1123 %
+Mean rel. region size (0.95 level)      28.7237 %
+Total Number of Instances             3659     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.934    0.237    0.733      0.934    0.822      0.687    0.943     0.933     0
+                 0.376    0.112    0.570      0.376    0.453      0.305    0.805     0.540     1
+                 0.442    0.090    0.584      0.442    0.503      0.391    0.872     0.548     2
+                 0.633    0.075    0.438      0.633    0.518      0.474    0.916     0.503     3
+Weighted Avg.    0.642    0.155    0.629      0.642    0.621      0.495    0.886     0.700     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1405   96    3    0 |    a = 0
+  469  389  161   16 |    b = 1
+   41  178  359  234 |    c = 2
+    1   20   92  195 |    d = 3
+
